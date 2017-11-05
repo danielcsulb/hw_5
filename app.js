@@ -1,7 +1,7 @@
 // var userIn = message
 
 // while (userIn != 0) {
-var userchoice = false;
+var userchoice = true;
 
 do {
     const message = prompt('Choose an option: \n 1: Show messages \n 2: Add a message \n 3: Delete message \n 0: Quit');
@@ -71,16 +71,19 @@ do {
     if (userIn == 0) {
         const output = document.getElementById("output")
         output.innerHTML = 'Good Bye';
+        userchoice = false;
     }
 
     if (userIn === "") {
         const output = document.getElementById("output")
         output.innerHTML = 'Please refresh and select correct command.'
+        userchoice = false;
     }
 
     if (isNaN(userIn)) {
         const output = document.getElementById("output")
         output.innerHTML = 'Please refresh and select correct command.'
+        userchoice = false;
     }
 
 } while (userchoice == true);
