@@ -1,7 +1,7 @@
 // var userIn = message
 
 // while (userIn != 0) {
-var userchoice = true;
+var userchoice = false;
 
 do {
     const message = prompt('Choose an option: \n 1: Show messages \n 2: Add a message \n 3: Delete message \n 0: Quit');
