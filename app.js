@@ -50,8 +50,8 @@ do {
         const output = document.getElementById("output")
         output.innerHTML = 'The current messages are: ';
         output2.innerHTML = list().innerHTML;
-        // const message = prompt('Choose an option: \n 1: Show messages \n 2: Add a message \n 3: Delete message \n 0: Quit'); 
         userchoice = true;
+        // const message = prompt('Choose an option: \n 1: Show messages \n 2: Add a message \n 3: Delete message \n 0: Quit');
 
     }
 
@@ -65,6 +65,7 @@ do {
         output.innerHTML = 'The current messages are: ';
         output2.innerHTML = list().innerHTML;
         userchoice = true;
+        // const message = prompt('Choose an option: \n 1: Show messages \n 2: Add a message \n 3: Delete message \n 0: Quit');
 
     }
 
